@@ -1,11 +1,11 @@
-version: "3"
+version: "2"
 networks: 
   nw01: 
     driver: bridge 
     
 services: 
   app: 
-    image: initcron/cmadtest:latest
+    image: srsuansia/cmad_blog:latest
     ports: 
       - 7000:8080
     networks: 
